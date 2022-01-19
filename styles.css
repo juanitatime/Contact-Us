@@ -1,0 +1,87 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background: url('triangle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+h1 {
+    text-align-last: center;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 70px;
+    color: #ff6f00;
+    text-shadow: 3px 3px #3E2F5B
+}
+h1:hover {
+    text-shadow: 6px 6px #3E2F5B;
+
+}
+.building {
+    height: 60vh;
+    border-style: double;
+    border-color: #7bcac1;
+    border-radius: 10px;
+    border-width: 8px;
+    margin-left: 400px;
+}
+.support {
+    height: 40vh;
+    width: 60vh;
+    border-style: double;
+    border-color: #10a964;
+    border-radius: 10px;
+    border-width: 8px;
+    margin-top: 50px;   
+    margin-left: 100px;   
+}
+.details {
+    text-align: center;
+}
+a {
+    text-align-last: left;
+    color: #3E2F5B;
+    font-size: 25px;
+    font-style: normal;
+}
+p {
+    text-align: center;
+    color: #3E2F5B;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 25px;
+    
+}
+ul li {
+    list-style-position: inside;
+   
+}
+.wrapper {
+    text-align: center;
+}
+.wrapper ul {
+    margin: 0;
+    padding: 0;
+    color: #3E2F5B;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 40px;
+}
+.wrapper li {
+    padding: 2px 5px; 
+    list-style-type: square;
+
+}
+h2 {
+    text-align-last: center;
+    color: #ff6f00;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 20px;
+}
+h2:hover {
+    text-shadow: 6px 6px #3E2F5B;
+
+}
